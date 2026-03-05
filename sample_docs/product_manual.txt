@@ -1,0 +1,54 @@
+PRODUCT MANUAL - SmartCart Pro v2.0
+
+1. INTRODUCTION
+SmartCart Pro is an AI-powered shopping cart solution for e-commerce businesses.
+It automatically applies discounts, recommends products, and tracks inventory.
+
+2. SYSTEM REQUIREMENTS
+- Internet connection (minimum 10 Mbps)
+- Compatible browsers: Chrome 90+, Firefox 85+, Safari 14+, Edge 90+
+- Operating System: Windows 10+, macOS 11+, Ubuntu 20.04+
+
+3. INSTALLATION
+3.1 Cloud Setup (Recommended)
+  - Sign up at smartcartpro.io
+  - Choose your subscription plan (Starter, Business, or Enterprise)
+  - Copy your unique API key from the dashboard
+  - Add the integration snippet to your website's <head> section
+
+3.2 Self-Hosted Setup
+  - Download the installer from your dashboard
+  - Run installer.sh (Linux/Mac) or installer.exe (Windows)
+  - Follow the setup wizard (installation takes ~10 minutes)
+  - Configure your database connection in config.yml
+
+4. KEY FEATURES
+4.1 AI Recommendations
+  - Automatically suggests related products based on browsing history
+  - Powered by collaborative filtering algorithm
+  - Update recommendation model monthly via dashboard > AI Settings
+
+4.2 Automatic Discounts
+  - Set rules in Dashboard > Pricing > Discount Rules
+  - Supports percentage discounts, flat amounts, and BOGO offers
+  - Discounts apply in real time during checkout
+
+4.3 Inventory Management
+  - Real-time stock tracking across all warehouses
+  - Low-stock alerts sent via email or SMS
+  - Automatic reorder triggers can be configured
+
+5. TROUBLESHOOTING
+Problem: Cart not loading
+Solution: Clear browser cache and cookies. Ensure JavaScript is enabled.
+
+Problem: Payment not processing
+Solution: Check your payment gateway credentials in Dashboard > Integrations > Payments.
+
+Problem: Discount not applying
+Solution: Verify the discount rule is active and the cart meets minimum order requirements.
+
+6. SUPPORT
+For technical support: tech-support@smartcartpro.io
+For billing inquiries: billing@smartcartpro.io
+Phone support: +1-800-SMARTCART (Mon-Fri, 9AM-5PM PST)
