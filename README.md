@@ -1,10 +1,10 @@
-# 🤖 AI Customer Support Assistant
+# AI Customer Support Assistant
 
 A production-ready **Retrieval-Augmented Generation (RAG)** system that answers customer support questions by searching your uploaded documents and generating accurate answers using an LLM.
 
 ---
 
-## 🚀 Features
+## Features
 
 | Feature | Details |
 |---|---|
@@ -75,7 +75,7 @@ OPENAI_API_KEY=sk-...
 
 ---
 
-## 🏃 Running the Application
+## Running the Application
 
 ### Start the FastAPI backend
 ```bash
@@ -139,7 +139,7 @@ curl -X DELETE http://localhost:8000/reset
 
 ---
 
-## 🧪 Quick Test
+##  Quick Test
 
 ```bash
 # 1. Start the backend
@@ -157,7 +157,7 @@ curl -X POST http://localhost:8000/ask \
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Question
@@ -175,7 +175,7 @@ Final Answer + Source + Confidence
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - **FastAPI** — REST API framework
 - **ChromaDB** — vector database
@@ -186,7 +186,7 @@ Final Answer + Source + Confidence
 
 ---
 
-## 🔒 Environment Variables
+##  Environment Variables
 
 | Variable | Default | Description |
 |---|---|---|
@@ -200,7 +200,7 @@ Final Answer + Source + Confidence
 
 ---
 
-## 💡 Extending the System
+##  Extending the System
 
 - **Add conversation memory**: Use `ConversationBufferMemory` from LangChain
 - **Stream responses**: Use FastAPI `StreamingResponse` + OpenAI streaming
